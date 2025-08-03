@@ -228,8 +228,9 @@ Changes the red component of the background color to 150.
 ![Untitled video - Made with Clipchamp5](https://github.com/user-attachments/assets/f5b5cd44-bf5a-4f0f-a4c8-7b22a072b903)  
 <br>  
 <hr>  
-<br>  
-###Created by Abdulaziz AL-Thomali
+<br> 
+
+Created by 8*Abdulaziz AL-Thomali**
 
 
 
