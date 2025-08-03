@@ -17,6 +17,7 @@ This project provides a practical exploration of ROS2 Humble’s turtlesim packa
 3. `Create a new virtual machine and mount the Ubuntu ISO.`  
    Complete the OS installation inside the virtual environment.  
 <hr>  
+
 ## ROS2 Humble Setup
 
 1. ```sudo apt update && sudo apt install locales```  
@@ -67,6 +68,7 @@ This project provides a practical exploration of ROS2 Humble’s turtlesim packa
 16. ```echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc && source ~/.bashrc```  
     Automatically source ROS2 environment on every terminal session.
 <hr>  
+
 ## Installing and Launching Turtlesim
 
 ### Install turtlesim package
