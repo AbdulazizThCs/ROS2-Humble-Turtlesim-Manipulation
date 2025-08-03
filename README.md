@@ -87,6 +87,7 @@ Install the turtlesim package for ROS2 Humble.
 ros2 run turtlesim turtlesim_node
 ```
 Launches the main turtlesim GUI node.  
+<br>
 <img width="894" height="846" alt="Screenshot from 2025-08-03 22-13-25" src="https://github.com/user-attachments/assets/abccac6a-5e3f-4e0f-88b9-bbc8aa0b9312" />
 
 
@@ -97,6 +98,7 @@ Launches the main turtlesim GUI node.
 ros2 run turtlesim turtle_teleop_key
 ```
 Launches keyboard control for the turtle.  
+<br>
 ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/e8f555f0-84d7-4d2d-af31-730964a75f21)
 
 
@@ -109,6 +111,7 @@ Launches keyboard control for the turtle.
 ros2 node list
 ```
 Displays all active ROS2 nodes.  
+<br>
 <img width="850" height="604" alt="Screenshot from 2025-08-03 22-30-24" src="https://github.com/user-attachments/assets/d550b34b-28d0-4611-9bb2-eed933d7afc7" />
 
 
@@ -118,7 +121,8 @@ Displays all active ROS2 nodes.
 ```
 ros2 node info /turtlesim
 ```
-Shows details about the `/turtlesim` node, including its topics and services.  
+Shows details about the `/turtlesim` node, including its topics and services. 
+<br>
 <img width="826" height="604" alt="Screenshot from 2025-08-03 22-32-32" src="https://github.com/user-attachments/assets/7ecd11b6-a1d7-492d-b3ea-e5ce5960954a" />
 
 
@@ -135,6 +139,7 @@ Lists all current topics being published or subscribed to.
 ros2 topic list -t
 ```
 Displays all active topics along with their message types.  
+<br>
 <img width="826" height="604" alt="Screenshot from 2025-08-03 22-36-49" src="https://github.com/user-attachments/assets/dd404b85-a432-4d98-a77c-b59d9e52fdff" />
 
 <hr>
@@ -144,6 +149,7 @@ Displays all active topics along with their message types.
 ros2 topic echo /turtle1/cmd_vel
 ```
 Displays messages being published to the turtle's velocity topic.  
+<br>
 ![Untitled video - Made with Clipchamp2](https://github.com/user-attachments/assets/2e5686a8-19de-4a51-b567-7c48d51c9445)
 
 
@@ -154,6 +160,7 @@ Displays messages being published to the turtle's velocity topic.
 rqt_graph
 ```
 Opens a graphical interface showing node and topic relationships.  
+<br>
 <img width="865" height="766" alt="Screenshot from 2025-08-03 22-48-07" src="https://github.com/user-attachments/assets/bd2de268-e4a0-40e1-887d-003db4a128f3" />
 
 
@@ -164,6 +171,7 @@ Opens a graphical interface showing node and topic relationships.
 ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 ```
 Sends a velocity command to move and rotate the turtle.  
+<br>
 ![Untitled video - Made with Clipchamp3](https://github.com/user-attachments/assets/da7a423a-b1cd-4fef-8f4e-8f61a12ec927)
 
 
@@ -176,6 +184,7 @@ Sends a velocity command to move and rotate the turtle.
 ros2 service list
 ```
 Lists all services offered by the current nodes.  
+<br>
 <img width="905" height="617" alt="Screenshot from 2025-08-03 22-56-12" src="https://github.com/user-attachments/assets/cbafd923-4cd6-43c5-8ba4-3f28c76909af" />
 
 
@@ -186,6 +195,7 @@ Lists all services offered by the current nodes.
 ros2 service call /clear std_srvs/srv/Empty
 ```
 Clears the background and resets the drawing canvas.  
+<br>
 ![Untitled video - Made with Clipchamp4](https://github.com/user-attachments/assets/5e3d83c9-aac7-4965-9412-e9355258b839)
 
 
@@ -203,6 +213,7 @@ Displays all parameters available in the active nodes.
 ros2 param get /turtlesim background_g
 ```
 Gets the green component of the turtlesim background color.  
+<br>
 <img width="896" height="613" alt="Screenshot from 2025-08-03 23-03-10" src="https://github.com/user-attachments/assets/94f3c6da-75b4-43a5-b233-b4915766a79f" />
 
 
@@ -213,7 +224,12 @@ Gets the green component of the turtlesim background color.
 ros2 param set /turtlesim background_r 150
 ```
 Changes the red component of the background color to 150.  
-![Untitled video - Made with Clipchamp5](https://github.com/user-attachments/assets/f5b5cd44-bf5a-4f0f-a4c8-7b22a072b903)
+<br>
+![Untitled video - Made with Clipchamp5](https://github.com/user-attachments/assets/f5b5cd44-bf5a-4f0f-a4c8-7b22a072b903)  
+<br>  
+<hr>  
+Created by **Abdulaziz AL-Thomali**
+
 
 
 
